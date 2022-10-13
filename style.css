@@ -418,3 +418,17 @@ table {
 .footer-menu>li:first-child:before {
     display: none;
 }
+
+
+/* TODO MOBILE VER */
+
+@media (max-width: 1400px) {
+    h1 {
+        color: red;
+    }
+    * {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
